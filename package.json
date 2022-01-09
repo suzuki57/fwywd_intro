@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lighthouse": "^9.2.0",
     "next": "12.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -18,5 +19,19 @@
     "eslint-config-next": "12.0.4",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzuki-88/fwywd_intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzuki-88/fwywd_intro/issues"
+  },
+  "homepage": "https://github.com/suzuki-88/fwywd_intro#readme"
 }
