@@ -1,11 +1,11 @@
 const colors = require("tailwindcss/colors")
 
 module.exports = {
-  purge: [
+  content: [
     './public/**/*.{js,jsx,ts,tsx,vue}',
     './src/**/*.{js,jsx,ts,tsx,vue}',
    ],
-  media: false, // or 'media' or 'class'
+  
   theme: {
     backgroundImage: theme => ({
       'about': "url('/images/bg-about.png')",
